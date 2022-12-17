@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My Portfolio page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>AJ</h1>
+            <a href="index.html">Projects</a>
+            <a href="aboutme.html">About Me</a>
+        </div>
+
+        
+        
+        <h2>These are some games designed by me</h2>
+        <p>Games use p5.js, p5.play and matter.js libraries in javascript</p>
+
+        <a href = "https://editor.p5js.org/whitehatjr/present/ePJrHCACM"><img src="https://via.placeholder.com/300"/></a>
+        <p>Trex Runner Game</p>
+        
+        <a href = "#"><img src="https://via.placeholder.com/300"/></a>
+        <p>Name of game 2</p>
+
+        <a href = "#"><img src="https://via.placeholder.com/300"/></a>
+        <p>Name of game 3</p>
+
+        <a href = "#"><img src="https://via.placeholder.com/300"/></a>
+        <p>Name of game 4</p>
+
+        <a href = "#"><img src="https://via.placeholder.com/300"/></a>
+        <p>Name of game 5</p>
+
+        <a href="#"><img src="fb.png" width=50 height=50/></a>
+        <a href="#"><img src="insta.png" width=50 height=50/></a>
+        <a href="#"><img src="youtube.png" width=50 height=50/></a>
+    
+    </body>
+</html>
+<!--
+    renderItem = ({ item }) => {
+        let meteor = item
+        let bg_img, speed, size;
+        if (meteor.threat_score <= 30) {
+            bg_img = require("../assets/meteor_bg1.png")
+            speed = require("../assets/meteor_speed3.gif")
+            size = 100
+        } else if (meteor.threat_score <= 75) {
+            bg_img = require("../assets/meteor_bg2.png")
+            speed = require("../assets/meteor_speed3.gif")
+            size = 150
+        } else {
+            bg_img = require("../assets/meteor_bg3.png")
+            speed = require("../assets/meteor_speed3.gif")
+            size = 200
+        }
+
+return (
+            <View>
+                <ImageBackground source={bg_img} style={styles.backgroundImage}>
+                    <View styles={styles.gifContainer}>
+                        <Image source={speed} style={{ width: size, height: size, alignSelf: "center" }}></Image>
+                        <View>
+                            <Text style={[styles.cardTitle, { marginTop: 400, marginLeft: 50 }]}>{item.name}</Text>
+                            <Text style={[styles.cardText, { marginTop: 20, marginLeft: 50 }]}>Closest to Earth - {item.close_approach_data[0].close_approach_date_full}</Text>
+                            <Text style={[styles.cardText, { marginTop: 5, marginLeft: 50 }]}>Minimum Diameter (KM) - {item.estimated_diameter.kilometers.estimated_diameter_min}</Text>
+                            <Text style={[styles.cardText, { marginTop: 5, marginLeft: 50 }]}>Maximum Diameter (KM) - {item.estimated_diameter.kilometers.estimated_diameter_max}</Text>
+                            <Text style={[styles.cardText, { marginTop: 5, marginLeft: 50 }]}>Velocity (KM/H) - {item.close_approach_data[0].relative_velocity.kilometers_per_hour}</Text>
+                            <Text style={[styles.cardText, { marginTop: 5, marginLeft: 50 }]}>Missing Earth by (KM) - {item.close_approach_data[0].miss_distance.kilometers}</Text>
+                        </View>
+                    </View>
+                </ImageBackground>
+            </View>
+        );
+    };
+
+
+
+
+
+
+
+    --------------------------------------------------
+
+
+    
+const styles = StyleSheet.create({
+    container: {
+        flex: 1
+    },
+    droidSafeArea: {
+        marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
+    },
+    backgroundImage: {
+        flex: 1,
+        resizeMode: 'cover',
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').height
+    },
+    titleBar: {
+        flex: 0.15,
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    titleText: {
+        fontSize: 30,
+        fontWeight: "bold",
+        color: "white"
+    },
+    meteorContainer: {
+        flex: 0.85
+    },
+    listContainer: {
+        backgroundColor: 'rgba(52, 52, 52, 0.5)',
+        justifyContent: "center",
+        marginLeft: 10,
+        marginRight: 10,
+        marginTop: 5,
+        borderRadius: 10,
+        padding: 10
+    },
+    cardTitle: {
+        fontSize: 20,
+        marginBottom: 10,
+        fontWeight: "bold",
+        color: "white"
+    },
+    cardText: {
+        color: "white"
+    },
+    threatDetector: {
+        height: 10,
+        marginBottom: 10
+    },
+    gifContainer: {
+        justifyContent: "center",
+        alignItems: "center",
+        flex: 1
+    },
+    meteorDataContainer: {
+        justifyContent: "center",
+        alignItems: "center",
+
+    }
+});
+-->
